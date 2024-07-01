@@ -1,6 +1,6 @@
 # Use a lightweight web server as the base image
 #FROM nginx:alpine
-FROM alpine:3.19
+FROM alpine:3
 
 # Update all packages to their latest versions
 RUN apk update && apk upgrade --no-cache
